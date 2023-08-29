@@ -1,8 +1,3 @@
-import org.junit.Test;
-import org.junit.jupiter.api.DisplayName;
-
-
-import static org.junit.jupiter.api.Assertions.*;
 public class SimpleCalculatorTest {
     @Test
     @DisplayName("Testing add 0 + 0")
