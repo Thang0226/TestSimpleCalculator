@@ -1,4 +1,9 @@
-public class SimpleCalculatorTest {
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+class SimpleCalculatorTest {
     @Test
     @DisplayName("Testing add 0 + 0")
     public void testAdd0And0() {
